@@ -3,7 +3,7 @@ import openai
 import streamlit as st
 
 # DESIGN implement changes to the standard streamlit UI/UX
-st.set_page_config(page_title="rephraise", page_icon="img/rephraise_logo.png",)
+# st.set_page_config(page_title="rephraise", page_icon="img/rephraise_logo.png",)
 # Design move app further up and remove top padding
 st.markdown('''<style>.css-1egvi7u {margin-top: -4rem;}</style>''',
     unsafe_allow_html=True)
@@ -81,7 +81,7 @@ def gen_mail_format(sender, recipient, style, email_contents):
 
 def main_gpt3emailgen():
 
-    st.image('img/image_banner.png')  # TITLE and Creator information
+    # st.image('img/image_banner.png')  # TITLE and Creator information
     st.markdown('Generate professional sounding emails based on your direct comments - powered by Artificial Intelligence (OpenAI GPT-3) Implemented by '
         '[stefanrmmr](https://www.linkedin.com/in/stefanrmmr/) - '
         'view project source code on '
